@@ -376,7 +376,11 @@ mark {
   color: var(--cyan-hover);
 }
 
-h1.title,
+h1.title {
+  font-weight: 472;
+  color: var(--red);
+}
+
 .ls-block h1,
 .ls-block h2,
 .ls-block h3,
@@ -384,11 +388,26 @@ h1.title,
 .ls-block h5,
 .ls-block h6 {
   font-weight: 400;
-  color: var(--red);
 }
 
-h1.title {
-  color: var(--red);
+.ls-block h1 {
+  color: #A30702;
+}
+
+.ls-block h2 {
+  color: #CC2E29;
+}
+
+.ls-block h3 {
+  color: #DE5550;
+}
+
+.ls-block h4 {
+  color: #F2726D;
+}
+
+.ls-block h5, .ls-block h6 {
+  color: #FF8B87;
 }
 
 /* Priority tag styling */
